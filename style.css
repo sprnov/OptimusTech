@@ -220,7 +220,14 @@ body {
     border: 1px solid var(--branco-secundario);
     border-radius: 16px;
     padding: 2em;
+    transition: 0.2s;
+    margin-right: 12em;
+    cursor: default;
+}
 
+.jobs-box:hover {
+    scale: 1.02;
+    border: 1px solid black;
 }
 
 .jobs-box-titulo {
@@ -339,6 +346,7 @@ body {
     width: 25em;
     background-color: var(--cor-de-fundo);
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    padding-left: 1em;
 }
 
 .final-email::placeholder {
@@ -347,7 +355,7 @@ body {
     font-weight: 400;
     line-height: 150%;
     color: var(--cor-texto);
-    padding: 1em;
+    padding: 0.1em;
     opacity: 0.7;
 }
 
